@@ -4,7 +4,7 @@
 
 ---
 
-**OSW-Ollama-WebUI** is a simple Ollama web interface built with Flask.
+**Open Ollama WebUI** is a simple Ollama web interface built with Flask.
 > 📅 Release date: **August 25, 2025**   
 > 📦 Initial release: **Open Ollama WebUI 1.0**   
 > 📦 Current version: **Open Ollama WebUI 1.1**   
