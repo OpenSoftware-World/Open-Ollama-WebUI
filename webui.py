@@ -94,6 +94,7 @@ def app_page():
         return render_template("ollama_webui.html", ollama_web_ui_title=ollama_web_ui_title, user_model=user_model, model_question=model_question, model_submit=model_submit, exit=exit)
     else:
         return render_template("app_requirements.html", app_requirements=app_requirements, app_requirements_description=app_requirements_description, login_var=login_var)
+
 @app.route('/chat', methods=['GET', 'POST'])
 def chat():
     if request.method == "POST":

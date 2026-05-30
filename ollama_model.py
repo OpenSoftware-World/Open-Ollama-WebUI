@@ -1,4 +1,5 @@
 from ollama import ChatResponse, chat
+
 def load_model(model_name, msg):
     messages = [
         {
